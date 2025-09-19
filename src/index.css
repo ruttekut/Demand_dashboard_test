@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+a {
+  @apply text-brand-600 underline;
+}
+
+a:hover {
+  @apply text-brand-700;
+}
